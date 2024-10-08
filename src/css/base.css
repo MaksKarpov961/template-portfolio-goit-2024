@@ -2,10 +2,6 @@
   font-family: 'Impact';
   src: url('/fonts/impact.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/poppins/');
-}
 
 :root {
   --black: #292929;

@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Impact';
+  src: url('/fonts/impact.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins/');
+}
+
 :root {
   --black: #292929;
   --accet-green: #00b068;
@@ -16,16 +25,14 @@
   --error: #e74a3b;
 }
 
+/****** Змінні для шрифтів  ************************/
 :root {
   --font-family: "Poppins", sans-serif;
   --second-family: "Impact", sans-serif;
   --third-family: "Montserrat", sans-serif;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
+
+body{
+  background: var(--white);
 }

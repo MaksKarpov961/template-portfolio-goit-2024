@@ -1,6 +1,7 @@
-  export const refs = {
+export const refs = {
   openMenuButton: document.querySelector('.header-burger'),
   closeMenuButton: document.querySelector('.overlay-close-icon'),
   overleyMenu: document.querySelector('.overlay-menu-wrapper'),
+  linkMenu: document.querySelector('.overlay-list')
   
 }

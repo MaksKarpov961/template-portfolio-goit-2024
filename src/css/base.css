@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Impact';
-  src: url('/fonts/impact.ttf') format('truetype');
-}
-
 :root {
   --black: #292929;
   --accet-green: #00b068;
@@ -21,14 +16,75 @@
   --error: #e74a3b;
 }
 
-/****** Змінні для шрифтів  ************************/
 :root {
   --font-family: "Poppins", sans-serif;
   --second-family: "Impact", sans-serif;
-  --third-family: "Montserrat", sans-serif;
+}
+
+/* common styles - загальні стилі */
+
+body {
+  background: var(--white);
+  font-family: var(--font-family);
+  color: var(--black);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 
-body{
-  background: var(--white);
+/* mobile */
+.container {
+  max-width: 360px;
+  /* min-width: 320px; */
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .section {
+    padding: 62px 0;
+  }
+
+}
+
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .section {
+    padding: 82px 0;
+  }
 }

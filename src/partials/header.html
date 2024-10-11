@@ -1,18 +1,28 @@
 <header class="header">
-  <div class="container">
-    <p class="popins">
-      I'm Lloyd Jefferson, a talented programmer specializing in software
-      development. My expertise spans various programming languages and
-      technologies, and I am dedicated to continually enhancing my skills. I
-      thrive on seeking unconventional and creative solutions to problems,
-      leveraging a high level of analytical skills to effectively tackle even
-      the most challenging tasks.
-    </p>
-    <a href="#">Asdasdas</a>
-    <button type="button">sadasd</button>
-    <div class="divwrapper">
-      <div class="div1"></div>
-      <div class="div2"></div>
-    </div>
+  <div class="container header-container">
+    <a href="./index.html" class="header-logo"
+      >Lloyd<span class="header-logo-span">Jefferson.</span></a
+    >
+    <svg width="32" height="32" class="header-burger">
+      <use href="/img/sprite.svg#menu-burger" />
+    </svg>
+  </div>
+  <div class="overlay-menu-wrapper">
+    <svg width="32" height="32" class="overlay-close-icon">
+      <use href="/img/sprite.svg#close-icon" />
+    </svg>
+    <nav class="overlay-nav">
+      <ul class="overlay-list">
+        <li class="overlay-item">
+          <a class="overley-menu-link" href="#">About me</a>
+        </li>
+        <li class="overlay-item">
+          <a class="overley-menu-link" href="#">Projects</a>
+        </li>
+        <li class="overlay-item">
+          <a class="overley-menu-link" href="#">Contacts</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>

@@ -1,0 +1,91 @@
+.hero-image{
+  border-radius: 32px;
+  display: none;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  background-image: url('/img/header/decorbg8.webp');
+    background-repeat: no-repeat;
+    /* Забороняє повторення зображення */
+    background-size: 85%;
+    background-position: center;
+}
+
+
+
+
+.hero-wrapper-top {
+}
+
+.hero-title {
+font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.hero-title-span{
+  color: var(--accet-green);
+}
+
+.hero-wrapper-down {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.wrapper-order {
+  display: flex;
+  gap: 12px;
+  position: relative;
+
+}
+
+.wrapper-order::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border-radius: 16px;
+  width: 165px;
+  height: 92px;
+  background: var(--light-accent);
+  top: -33px;
+  right: 4%;
+}
+
+
+.hero-arrow {
+  stroke-width: 1px;
+  fill: var(--accet-green);
+}
+
+.hero-order-text {
+font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.hero-descr {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.hero-descr-span{
+  color: var(--accet-green);
+}
